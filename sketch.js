@@ -25,9 +25,9 @@ let state = "white"
 let score1 = 0; let score2 = 0;
 
 function preload(){
-   pingsound = loadSound('sounds/pong.wav');
-   bckimage = loadImage('sounds/fireice.jpg');
-   bckimage2 = loadImage('sounds/fireice.jpg');
+   pingsound = loadSound('pong.wav');
+   bckimage = loadImage('fireice.jpg');
+   bckimage2 = loadImage('fireice.jpg');
 
 }
 // let backgroundArray = [bckimage, bckimage2]; //for changing the background, use button for this
